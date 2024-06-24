@@ -1,6 +1,6 @@
 # Favorite apps for dock
 apps=(
-	"google-chrome.desktop"
+	"microsoft-edge.desktop"
 	"Alacritty.desktop"
 	"code.desktop"
 	"WhatsApp.desktop"
@@ -11,7 +11,7 @@ apps=(
 	"pinta_pinta.desktop"
 	"com.github.xournalpp.xournalpp.desktop"
 	"steam.desktop"
-	"1password.desktop"
+	"bitwarden_bitwarden.desktop"
 	"org.gnome.Settings.desktop"
 	"org.gnome.Nautilus.desktop"
 )
@@ -23,6 +23,7 @@ installed_apps=()
 desktop_dirs=(
 	"/usr/share/applications"
 	"/usr/local/share/applications"
+	"/var/lib/snapd/desktop/applications"
 	"$HOME/.local/share/applications"
 )
 
